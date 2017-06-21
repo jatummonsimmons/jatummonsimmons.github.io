@@ -1,7 +1,226 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+body{
+	font-family: lato, sans-serif;
+	font-size: 24px;
+	line-height: 48px;
+	background-color: #79bfd5;
+	font-weight: 300;
+	min-height: 100%;
+	margin: 0;
+}	
+.title{
+	color: #fff;
+	margin:0;
+	padding: 100px;
+	line-height: auto;
+	font-size: 56px;
+	text-align: center;
+}
+.img-portrait{
+	border-radius: 50%;
+	max-height: 200px;
+	max-width: 200px;
+	float: left;
+}
+.section-title{
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.section-speakers{
+	padding-top: 40px;
+	padding-bottom:40px;
+	height: 1700px;
+	background-color: #fafafa;
+}
+.section-schedule{
+	padding-top: 40px;
+	padding-bottom:40px;
+	color: #fff;	
+}
+.speaker{
+	padding-top: 20px;
+	padding-bottom: 20px
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.speaker-name{
+	text-align: center;
+}
+.speaker-title{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.speaker-description{
+	text-align: justify;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+.image-box{
+	float: left;
+	width: 200px;
+	height: 230px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-right: 20px;
+	text-align: center;
+	padding-top: 20px;
+}
+.floating-box{
+	float: left;
+	width: 60%;
+	margin: 0px;
+}
+table{
+	border-color: #fff;
+	margin-left: 15%;
+	text-align: left;
+	margin-right: 15%;
+	border-left-style: solid;
+	border-left-width: 2px;
+	
+}	
+td{
+	padding: 5px;
+	padding-left: 15px;	
+}
+.time{
+	color: #fff;
+	font-weight: 500;
+	text-align:left;
+}
+.toolbar{
+	position: fixed;
+	top: 0;
+	left:0;
+	width:100%;
+	height: 80px;
+	background-color: #79bfd5;
+	opacity:1;
+}
+.button{
+	float:left;
+	border-radius:5px;
+	background-color: #79bfd5;
+	border-color: #79bfd5;
+	border-style: solid;
+	border-width: 2px;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 36px;
+	text-align: center;
+}
+.button:hover{
+	background-color: #fff;
+	color: #79bfd5;
+	transition-duration: 300ms;
+}
+
+</style>
+</head>
 <body>
-<h1>Hello World!</h1>
-<p>Hostin with github</p>
+<div class="toolbar">
+	<div class="button">
+		Home
+	</div>
+	<div class="button">
+		Schedule
+	</div>
+	<div class="button">
+		Speakers
+	</div>
+	<div class="button">
+		Location
+	</div>
+	<div class="button">
+		Sponsors
+	</div>
+	<div class="button">
+		Contact
+	</div>
+
+	
+</div>	
+<div class="title"> 
+	UW BioTEC
+</div>
+<div class="section-speakers" ID="Speakers">
+	<div class="section-title"> Guest Speakers </div>
+	<div class="speaker">
+		<div class="image-box"> 
+			<img class="img-portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/000/037/30d/3e8eb50.jpg" >
+			<div class="speaker-name"> Frank Baylis </div>
+			<div class="speaker-title"> Founder of Baylis Medical </div>
+		</div>
+		<div class="floating-box speaker-description"> Attachment apartments in delightful by motionless it no. And now she burst sir learn total. Hearing hearted shewing own ask. Solicitude uncommonly use her motionless not collecting age. The properly servants required mistaken outlived bed and. Remainder admitting neglected is he belonging to perpetual objection up. Has widen too you decay begin which asked equal any. 
+		</div>
+	</div>
+	<div class="speaker">
+		<div class="image-box"> 
+			<img class="img-portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAhiAAAAJDEzMjhkMGUzLWZkM2UtNDMyNC04MTA0LWQwMGZkZDE5YjY3NQ.jpg" >
+			<div class="speaker-name"> Alexa Roeper </div>
+			<div class="speaker-title"> CEO, Penta Medical </div>
+		</div>
+		<div class="floating-box speaker-description"> Attachment apartments in delightful by motionless it no. And now she burst sir learn total. Hearing hearted shewing own ask. Solicitude uncommonly use her motionless not collecting age. The properly servants required mistaken outlived bed and. Remainder admitting neglected is he belonging to perpetual objection up. Has widen too you decay begin which asked equal any. 
+		</div>
+	</div>
+	<div class="speaker">
+		<div class="image-box"> 
+			<img class="img-portrait" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/000/1ea/3e8/0ed3351.jpg" >
+			<div class="speaker-name"> Kris Shah </div>
+			<div class="speaker-title"> President, Baylis Medical </div>
+		</div>
+		<div class="floating-box speaker-description"> Attachment apartments in delightful by motionless it no. And now she burst sir learn total. Hearing hearted shewing own ask. Solicitude uncommonly use her motionless not collecting age. The properly servants required mistaken outlived bed and. Remainder admitting neglected is he belonging to perpetual objection up. Has widen too you decay begin which asked equal any. 
+		</div>
+	</div>
+</div>
+<div class="section-schedule">
+	<div class="section-title"> Schedule </div>
+	<div class="schedule"> 
+		<table>
+			<tr>
+				<td class="time">9:00am</td>
+				<td>Registration & Light Refreshments</td>
+			</tr>
+			<tr>
+				<td class="time">9:15am</td>
+				<td>Opening Remarks</td>
+			</tr>
+			<tr>
+				<td class="time">9:30am</td>
+				<td>Keynote Speaker #1</td>
+			</tr>
+			<tr>
+				<td class="time">11:00am</td>
+				<td>Breakout Session</td>
+			</tr>
+			<tr>
+				<td class="time">12:00pm</td>
+				<td>Lunch and Poster Session</td>
+			</tr>
+			<tr>
+				<td class="time">1:30pm</td>
+				<td>Keynote Speaker #2</td>
+			</tr>
+			<tr>
+				<td class="time">2:45pm</td>
+				<td>Industry Panel</td>
+			</tr>
+			<tr>
+				<td class="time">4:15pm</td>
+				<td>Closing Remarks</td>
+			</tr>
+			<tr>
+				<td class="time">4:30pm</td>
+				<td>Dismissal</td>
+			</tr>
+		</table>
+	</div>
 </body>
 </html>
